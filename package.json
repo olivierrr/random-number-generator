@@ -1,6 +1,6 @@
 {
   "name": "random-number-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A better Math.random()",
   "main": "index.js",
   "scripts": {
