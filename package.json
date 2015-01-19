@@ -1,6 +1,6 @@
 {
   "name": "random-number-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A better Math.random()",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/olivierrr/random-number-generator/issues"
   },
+  "keywords": [
+    "random",
+    "number",
+    "generator",
+    "/dev/random",
+    "dev",
+    "/dev/urandom",
+    "range",
+    "integer",
+    "int"
+  ],
   "homepage": "https://github.com/olivierrr/random-number-generator"
 }
