@@ -1,0 +1,19 @@
+{
+  "name": "random-number-generator",
+  "version": "1.0.0",
+  "description": "A better Math.random()",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olivierrr/random-number-generator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olivierrr/random-number-generator/issues"
+  },
+  "homepage": "https://github.com/olivierrr/random-number-generator"
+}
