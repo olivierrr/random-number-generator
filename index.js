@@ -6,6 +6,10 @@ module.exports = random
 function random(max, min) {
   min = min || 0
 
+  if(!isNumber(max)) {
+    return 0
+  }
+
   if(min >= max) {
     return max
   }
@@ -33,4 +37,8 @@ function random(max, min) {
     }
   }
   return (num % range) + min
+}
+
+function isNumber(num) {
+  return typeof num === 'number'
 }
