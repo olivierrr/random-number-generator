@@ -33,7 +33,7 @@ function random(max, min) {
     }
     num = 0
     for(var i = 0; i < bytes; i++) {
-      num += (buf.readUInt8(i) << 8 * (bytes - i - 1))
+      num += buf.readUInt8(i) * Math.pow(2, 8 * (bytes - i - 1))
     }
   }
   return (num % range) + min
